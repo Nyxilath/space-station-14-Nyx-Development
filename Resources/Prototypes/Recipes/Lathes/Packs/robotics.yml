@@ -26,6 +26,27 @@
   - LightHeadBorg
   - TorsoBorg
 
+- type: latheRecipePack
+  id: AILawboardStatic
+  recipes:
+  - AsimovCircuitBoard
+  - CorporateCircuitBoard
+  - NTDefaultCircuitBoard
+  - ArtistCircuitBoard
+  - GameMasterCircuitBoard
+  - LiveLetLiveCircuitBoard
+  - NutimovCircuitBoard
+  - PaladinCircuitBoard
+  - RobocopCircuitBoard
+  - StationEfficiencyCircuitBoard
+  - CommandmentCircuitBoard
+
+- type: latheRecipePack
+  id: DangerAILawboardStatic
+  recipes:
+  - AntimovCircuitBoard
+  - OverlordCircuitBoard
+
 ## Dynamic
 
 - type: latheRecipePack

@@ -35,6 +35,17 @@
     Plastic: 250
     Gold: 50
 
+- type: latheRecipe
+  abstract: true
+  parent: BaseRoboticsRecipe
+  id: BaseLawboardRecipe
+  materials:
+    Steel: 100
+    Glass: 1000
+    Gold: 100
+    Silver: 100
+
+
 # Recipes
 
 - type: latheRecipe
@@ -196,3 +207,70 @@
   parent: BaseBorgModuleRecipe
   id: BorgModuleHarvesting
   result: BorgModuleHarvesting
+
+# AI Lawboards
+
+- type: latheRecipe
+  parent: BaseLawboardRecipe
+  id: AsimovCircuitBoard
+  result: AsimovCircuitBoard
+
+- type: latheRecipe
+  parent: BaseLawboardRecipe
+  id: CorporateCircuitBoard
+  result: CorporateCircuitBoard
+
+- type: latheRecipe
+  parent: BaseLawboardRecipe
+  id: NTDefaultCircuitBoard
+  result: NTDefaultCircuitBoard
+
+- type: latheRecipe
+  parent: BaseLawboardRecipe
+  id: ArtistCircuitBoard
+  result: ArtistCircuitBoard
+
+- type: latheRecipe
+  parent: BaseLawboardRecipe
+  id: GameMasterCircuitBoard
+  result: GameMasterCircuitBoard
+
+- type: latheRecipe
+  parent: BaseLawboardRecipe
+  id: LiveLetLiveCircuitBoard
+  result: LiveLetLiveCircuitBoard
+
+- type: latheRecipe
+  parent: BaseLawboardRecipe
+  id: NutimovCircuitBoard
+  result: NutimovCircuitBoard
+
+- type: latheRecipe
+  parent: BaseLawboardRecipe
+  id: PaladinCircuitBoard
+  result: PaladinCircuitBoard
+
+- type: latheRecipe
+  parent: BaseLawboardRecipe
+  id: RobocopCircuitBoard
+  result: RobocopCircuitBoard
+
+- type: latheRecipe
+  parent: BaseLawboardRecipe
+  id: StationEfficiencyCircuitBoard
+  result: StationEfficiencyCircuitBoard
+
+- type: latheRecipe
+  parent: BaseLawboardRecipe
+  id: CommandmentCircuitBoard
+  result: CommandmentCircuitBoard
+
+- type: latheRecipe
+  parent: BaseLawboardRecipe
+  id: AntimovCircuitBoard
+  result: AntimovCircuitBoard
+
+- type: latheRecipe
+  parent: BaseLawboardRecipe
+  id: OverlordCircuitBoard
+  result: OverlordCircuitBoard
